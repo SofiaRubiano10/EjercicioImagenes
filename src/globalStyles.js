@@ -1,11 +1,7 @@
-.Container_Cabecera{
-	display: flex;
-	width: 100%;
-	height: 33.3vh;
-	background: #0566EA;
-	justify-content: space-between;
-}
-/*.ContainerText{
+import {createGlobalStyle} from 'styled-components'
+
+const GlobalStyles = createGlobalStyle`
+.ContainerText{
 	width: 50%;
 	margin: 10px;
 	font-family: Impact;
@@ -17,4 +13,7 @@
 	margin-right: 10px;
 	height: 100%;
 	justify-content: center;
-}*/
+}
+`;
+
+export default GlobalStyles; 
