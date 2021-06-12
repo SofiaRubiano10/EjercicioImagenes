@@ -6,7 +6,7 @@ const Footer = () => {
 	return (
 		<div className="Container_Footer">
 			<div className="ContainerText">
-				<p>Todo component</p>
+				<h2>Todo component</h2>
 				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at.</p>
 			</div>
 			<div className="ContainerImg">

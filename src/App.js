@@ -1,4 +1,3 @@
-import logo from './utils/images/logo.svg';
 import './App.css';
 import GlobalStyles from "./globalStyles"
 import Title from "./components/Title";
