@@ -1,19 +1,19 @@
 import './App.css';
 import GlobalStyles from "./globalStyles"
-import Title from "./components/Title";
-import Todo from "./components/Todo";
-import Cuerpo from "./components/Cuerpo";
-import Footer from "./components/Footer";
-
+import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
+import Home from "./pages/Home/Home"
+import Contact from './pages/Home/Contact/contact';
 
 function App() {
   return (
     <div className="App">
-    	<GlobalStyles />
-      	<Title />
-		<Todo />
-		<Cuerpo />
-		<Footer />
+    	<Router>
+			<GlobalStyles />
+			<Switch>
+				<Route path= "/" exact component={Home} />
+				<Route path= "/contact" exact component={Contact} />
+			</Switch>
+		</Router>
     </div>
   );
 }

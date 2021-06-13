@@ -1,17 +1,18 @@
 import {createGlobalStyle} from 'styled-components'
-import PrimaryFont from './utils/fonts/Hind-Light.woff'
+import PrimaryFont from './utils/fonts/WinterSundayRegular.woff'
 
 const GlobalStyles = createGlobalStyle`
 .ContainerText{
 	width: 50%;
 	margin: 10px;
-	font-family: Impact;
+	font-family: Arial;
 	font-size: 20px;
 }
-.ContainerText p {
-	font-family: 'Hind';
-	font-size: 20px;
+.ContainerText h2 {
+	font-family: 'Winter';
+	font-size: 35px;
 }
+
 .ContainerImg{
 	display: flex;
 	width: 50%;
@@ -22,8 +23,8 @@ const GlobalStyles = createGlobalStyle`
 // fuentes 
 
 @font-face {
-	font-family: 'Hind';
-	src: local ('Hind'), url (${PrimaryFont}) format('woff'); 
+	font-family: 'Winter';
+	src: local ('Winter'), url (${PrimaryFont}) format('woff'); 
 	font-style: normal;
 	
 }

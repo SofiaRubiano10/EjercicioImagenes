@@ -7,8 +7,8 @@ const Cuerpo = () => {
 	return (
 		<div className="Container_Cuerpo">
 			<div className="ContainerText">
-				<h2>Todo component</h2>
-				<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, at.</p>
+				<h2>CISNE</h2>
+				<p>es una constelación del hemisferio norte que atraviesa la Vía Láctea. La disposición de sus principales estrellas hace que a veces sea conocida como la Cruz del Norte, en contraste con la constelación austral de la Cruz del Sur.</p>
 			</div>
 			<div className="ContainerImg">
 				<img src={Sofia} alt="es Sofia"/>
